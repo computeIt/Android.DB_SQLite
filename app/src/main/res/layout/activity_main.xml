@@ -12,6 +12,17 @@
         android:layout_height="wrap_content">
 
         <EditText
+            android:id="@+id/inputId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Id" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
             android:id="@+id/inputName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -26,8 +37,27 @@
             android:id="@+id/inputMail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Lastname" />
+            android:hint="Mail" />
     </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="update"
+            />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="delete"
+            />
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
